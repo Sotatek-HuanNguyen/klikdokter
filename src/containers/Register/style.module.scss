@@ -1,0 +1,25 @@
+.form {
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: right;
+}
+
+.field {
+  width: 100%;
+  margin-bottom: 15px;
+  border: none;
+  box-shadow: none;
+  height: 40px;
+  background-color: #cacaca;
+  font-size: 14px;
+  padding: 0 15px;
+}
+
+button {
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0;
+}

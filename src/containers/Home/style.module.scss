@@ -1,0 +1,36 @@
+.wrapper {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  &_control {
+    width: 100%;
+    display: flex;
+    justify-content:flex-end ;
+  }
+  &_table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    
+    thead {
+      th {
+        width: 20%;
+        padding: 5px;
+        border: solid 1px black;
+        font-weight: 500;
+        font-size: 16px;
+        &:first-child {
+          width: 15%;
+        }
+      }
+    }
+
+    tbody {
+      td {
+        border: solid 1px black;
+        padding: 5px;
+      }
+    }
+  }
+}
+

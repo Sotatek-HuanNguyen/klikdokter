@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+    
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.main {
+  max-width: 960px;
+  margin: auto;
+}
+
+button {
+  cursor: pointer;
+}
+.main-menu ul{
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+.main-menu ul li{
+  padding: 0px 10px;
+}
